@@ -1,43 +1,114 @@
 html{
-    background-color: darkgrey;
+    background-color: black;
 }
-
 .welcome{
     color: rgb(15, 5, 70);
     text-align: center;
     font-weight: bold;
+    font-size: 25px;
     background-color: rgb(218, 215, 40);
-    margin: 5%;
-    padding: 5%;
-    border-radius: 45px;
+    margin: 4%;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 3.5%;
+    padding-bottom: 3%;
 }
+h1{
+    margin-bottom: 5%;
+    text-align: center;
 
-button{
+}
+a {
     border: none;
-    color:rgb(15, 5, 70);
-    background-color:darkgrey;
+    color:black;
+    background-color:rgb(227, 230, 96);
+    text-decoration: none;
     padding: 2%;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
 }
-
-button :hover{
-    color: darkred;
+.btn{
+    margin-right: 5%;
 }
-
-
 .resultado{
     text-align: center;
     background-color: rgb(218, 215, 40);
     color: rgb(15, 5, 70);
-    margin: 5%;
-    padding: 5%;
-    border-radius: 45px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2%;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    width: 20%;
 }
-
+h2{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.result{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    margin-left:-50%;
+}
 .correctos{
-    display:inline;
+    display:flex;
+    font-size: 25px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: green;
 }
-
+.true{
+    display:flex;
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.verdade{
+    display:flex;
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.si{
+    display:flex;
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
 .errores{
-    display:inline;
+    display:flex;
+    margin-left: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
 }
 
+.false{
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.falso{
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.no{
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
