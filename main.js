@@ -26,6 +26,7 @@ function clicar() {
             let nome = person;
             if (nome != "") { document.getElementsByClassName("nombre")[0].innerHTML = " HOLA, " + nome + " AQUÍ ESTÁ SU RESULTADO!" }
             if (resposta3) {
+
                 txt = "MUCHAS GRACIAS POR PARTICIPAR ";
             }
         }
@@ -37,21 +38,9 @@ function clicar() {
 
 
 function limpar(){
-debugger
     var pargrafos = document.getElementById('result').getElementsByTagName('p')
-   for (let index = 0; index < pargrafos.length; index++) {
-       const element = pargrafos[index];
-       element.innerText = "";
-       
-   }
-
-
-    // document.getElementById("clic").innerHTML = "";
-    // document.getElementsByClassName("correctos").innerHTML = "";
-    // document.getElementsByClassName("errores").innerHTML = "";
-    // document.getElementsByClassName("verdade").innerHTML = "";
-    // document.getElementsByClassName("falso").innerHTML = "";
-    // document.getElementsByClassName("si").innerHTML = "";
-    // document.getElementsByClassName("no").innerHTML = "";
-
+    for (let index = 0; index < pargrafos.length; index++) {
+        const element = pargrafos[index];
+        element.innerText = "";
+    }
 }

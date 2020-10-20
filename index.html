@@ -11,7 +11,7 @@
 
 <body>
     <div class="welcome">
-        <h1>HOLA, SEA BIENVENIDO!!!</h1>
+        <h1 class="bien">HOLA, SEA BIENVENIDO!!!</h1>
         <ul>
             <a href="#" class="btn" onclick="clicar ()">CLIC AQUÍ PARA EMPEZAR</a>
             <p id="clic"></p>
@@ -21,15 +21,18 @@
         <h1 class="nombre"></h1>
         <h2>RESULTADO</h2>
         <div id="result" class="result">
-            <p class="correctos"> CORRECTOS</p>
-            <p class="true"></p>
-            <p class="verdade"></p>
-            <p class="si"></p>
-            <p class="errores">ERRORES</p>
-            <p class="false"></p>
-            <p class="falso"></p>
-            <p class="no"></p>
-            </p>
+            <div id="correct">
+                <h4 class="correctos"> CORRECTOS</h4>
+                <p class="true"></p>
+                <p class="verdade"></p>
+                <p class="si"></p>
+            </div>
+            <div id="error">
+                <h4 class="errores">ERRORES</h4>
+                <p class="false"></p>
+                <p class="falso"></p>
+                <p class="no"></p>
+            </div>
         </div>
     </div>
 </body>
