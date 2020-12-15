@@ -2,8 +2,8 @@ html{
     background-color: black;
 }
 
-.container{
-    text-align: -moz-center;    
+.container, .welcome{
+    text-align:center;    
 }
 .welcome{
     color: rgb(15, 5, 70);
@@ -14,13 +14,17 @@ html{
     border-radius: 15px;
     padding-top: 3.5%;
     padding-bottom: 3%;
-    width: 45%;
+    width: 90%;
     text-align: center;
 }
 .bienvenido ul{
    padding-left: 0px; 
    height: 100%;
 }
+.bienvenido ul p{
+    padding-top: 3%; 
+ }
+ 
 
 h1, .welcome p{
     margin-bottom: 5%;
@@ -38,6 +42,7 @@ a {
     font-weight: bold;
     text-align: center;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 .btn{
     margin-right: 5%;
@@ -151,14 +156,33 @@ h2{
         h2 {
             font-size: 40px;
         }
-        resultado {
+        .resultado {
             width: 60%;
         }
+        .result{
+            margin-left: 0px;
+        }
+        .correctos, .errores{
+            font-size: 20px;
+        }
+        #correct{
+            min-width: 50%;
+            min-height: 100%;
+        }
+        #error{
+            min-width: 50%;
+            min-height: 100%;
+            margin-left: 0%;
+        }
+        #error p, #correct{
+            margin-left: 0%;
+        }
+
     }
     /*Mobile*/
-    @media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 575px) {
         .welcome {
-            width: 70%;
+            width: 90%;
         }
         h1, .welcome p {
             font-size: 15px;
@@ -188,6 +212,7 @@ h2{
         }
         #error p, #correct{
             margin-left: 0%;
+            margin-left: 5%;
         }
 
     }
