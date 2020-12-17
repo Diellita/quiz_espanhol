@@ -34,7 +34,7 @@ function clicar() {
 
     document.getElementById("clic").innerHTML = txt;
 }
-function limpar(){
+function limpar() {
     var pargrafos = document.getElementById('result').getElementsByTagName('p')
     for (let index = 0; index < pargrafos.length; index++) {
         const element = pargrafos[index];
